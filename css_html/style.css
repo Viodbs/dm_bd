@@ -1,0 +1,118 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #608CE9; /* Couleur pour les lignes impaires */
+}
+tr:nth-child(even) {
+    background-color: #e6f7ff; /* Couleur pour les lignes paires */
+}
+
+.img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ede8e8;
+    margin-bottom: 20px;
+}
+.sql-container {
+    background-color: #333; /* Couleur de fond de la zone de script */
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Bordure arrondie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
+    margin: 20px auto; /* Centrage horizontal */
+    max-width: 800px; /* Largeur maximale */
+    overflow-x: auto; /* Barre de défilement horizontale si nécessaire */
+}
+
+pre {
+    margin: 0; /* Supprimer les marges par défaut */
+    white-space: pre-wrap; /* Gérer les retours à la ligne */
+    word-wrap: break-word; /* Gérer les longs mots */
+}
+
+iframe {
+
+    margin: auto;
+    width: 100%;
+    height: 60vh; 
+    margin: auto; 
+    display: block;
+
+}
+body {
+    background-color: rgba(206, 233, 236, 0.571);
+    font-family: 'Calibri Light', sans-serif;
+}
+
+.nav {
+    display: flex; /* Utilisez Flexbox pour aligner les éléments */
+    justify-content: center; /* Centrez horizontalement les éléments */
+    list-style-type: none; /* Supprimez les puces */
+    margin: 0; /* Supprimez les marges par défaut */
+    padding: 0; /* Supprimez les espacements internes par défaut */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Ajoutez de l'espace autour des liens */
+}
+
+.nav-link:hover {
+    background-color: #4562a8; /* Changez la couleur de fond au survol */
+}
+.bar {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    z-index: 1000; 
+    background-color: #50535a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.notice-text {
+    color: #333;
+    font-size: 16px;
+}
+
+
+.notice-texte{
+    background-color: #9cd7ea;
+    border: 1px solid #7694b0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Calibri Light', sans-serif;
+}
